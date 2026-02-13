@@ -64,7 +64,6 @@
             color: var(--neutral-gray);
         }
 
-        /* KPI Cards - Minimal Style */
         .kpi-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -87,13 +86,8 @@
             margin-bottom: 8px;
         }
 
-        .kpi-value.green {
-            color: var(--goal-accent-1);
-        }
-
-        .kpi-value.success {
-            color: var(--success-green);
-        }
+        .kpi-value.green { color: var(--goal-accent-1); }
+        .kpi-value.success { color: var(--success-green); }
 
         .kpi-label {
             font-size: 13px;
@@ -106,11 +100,8 @@
             margin-top: 4px;
         }
 
-        .kpi-comparison.negative {
-            color: var(--warning-red);
-        }
+        .kpi-comparison.negative { color: var(--warning-red); }
 
-        /* Section */
         .section {
             margin-bottom: 40px;
         }
@@ -122,7 +113,6 @@
             margin-bottom: 20px;
         }
 
-        /* Campaign Comparison Cards - Minimal Style */
         .campaign-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
@@ -158,18 +148,9 @@
             color: var(--white);
         }
 
-        .campaign-badge.blue {
-            background: var(--goal-brand);
-        }
-
-        .campaign-badge.orange {
-            background: var(--warning-orange);
-        }
-
-        .campaign-badge.green {
-            background: var(--goal-accent-1);
-            color: var(--goal-dark-blue);
-        }
+        .campaign-badge.blue { background: var(--goal-brand); }
+        .campaign-badge.orange { background: var(--warning-orange); }
+        .campaign-badge.green { background: var(--goal-accent-1); color: var(--goal-dark-blue); }
 
         .campaign-metric-row {
             display: flex;
@@ -183,9 +164,7 @@
             color: var(--neutral-gray);
         }
 
-        .campaign-metric-value-group {
-            text-align: right;
-        }
+        .campaign-metric-value-group { text-align: right; }
 
         .campaign-metric-value {
             font-size: 16px;
@@ -206,15 +185,9 @@
             font-weight: 600;
         }
 
-        .campaign-metric-change.positive {
-            color: var(--success-green);
-        }
+        .campaign-metric-change.positive { color: var(--success-green); }
+        .campaign-metric-change.negative { color: var(--warning-red); }
 
-        .campaign-metric-change.negative {
-            color: var(--warning-red);
-        }
-
-        /* Chart Cards - Minimal Style */
         .chart-grid {
             display: grid;
             grid-template-columns: 1fr;
@@ -256,21 +229,15 @@
             color: var(--white);
         }
 
-        .chart-badge.better {
-            background: var(--goal-accent-1);
-            color: var(--goal-dark-blue);
-        }
+        .chart-badge.better { background: var(--goal-accent-1); color: var(--goal-dark-blue); }
 
-        /* Horizontal Bar Charts - Minimal Clean Style */
         .bar-chart {
             display: flex;
             flex-direction: column;
             gap: 12px;
         }
 
-        .bar-group {
-            margin-bottom: 24px;
-        }
+        .bar-group { margin-bottom: 24px; }
 
         .bar-group-title {
             font-size: 14px;
@@ -293,10 +260,7 @@
             font-weight: 500;
         }
 
-        .bar-label.highlight {
-            color: var(--goal-text);
-            font-weight: 600;
-        }
+        .bar-label.highlight { color: var(--goal-text); font-weight: 600; }
 
         .bar-container {
             flex: 1;
@@ -331,7 +295,6 @@
         .bar-value.green { color: var(--goal-accent-1); }
         .bar-value.orange { color: var(--warning-orange); }
 
-        /* Comparison Summary Below Charts */
         .comparison-summary {
             display: flex;
             gap: 24px;
@@ -340,24 +303,10 @@
             border-top: 1px solid var(--border-gray);
         }
 
-        .comparison-item {
-            display: flex;
-            flex-direction: column;
-            gap: 2px;
-        }
+        .comparison-item { display: flex; flex-direction: column; gap: 2px; }
+        .comparison-label { font-size: 11px; color: var(--neutral-gray); }
+        .comparison-value { font-size: 15px; font-weight: 700; color: var(--goal-text); }
 
-        .comparison-label {
-            font-size: 11px;
-            color: var(--neutral-gray);
-        }
-
-        .comparison-value {
-            font-size: 15px;
-            font-weight: 700;
-            color: var(--goal-text);
-        }
-
-        /* Conversion Funnel - Minimal Style */
         .funnel-container {
             background: var(--white);
             border: 1px solid var(--border-gray);
@@ -373,11 +322,7 @@
             margin-bottom: 24px;
         }
 
-        .funnel-title {
-            font-size: 15px;
-            font-weight: 600;
-            color: var(--goal-text);
-        }
+        .funnel-title { font-size: 15px; font-weight: 600; color: var(--goal-text); }
 
         .funnel-badge {
             padding: 4px 12px;
@@ -396,11 +341,7 @@
             flex-wrap: wrap;
         }
 
-        .funnel-stage {
-            text-align: center;
-            flex: 1;
-            min-width: 80px;
-        }
+        .funnel-stage { text-align: center; flex: 1; min-width: 80px; }
 
         .funnel-value {
             font-size: 28px;
@@ -409,18 +350,9 @@
             margin-bottom: 4px;
         }
 
-        .funnel-label {
-            font-size: 12px;
-            color: var(--neutral-gray);
-        }
+        .funnel-label { font-size: 12px; color: var(--neutral-gray); }
+        .funnel-arrow { font-size: 20px; color: var(--light-gray); flex-shrink: 0; }
 
-        .funnel-arrow {
-            font-size: 20px;
-            color: var(--light-gray);
-            flex-shrink: 0;
-        }
-
-        /* Metrics Table - Minimal Style */
         .metrics-table {
             background: var(--white);
             border: 1px solid var(--border-gray);
@@ -429,16 +361,8 @@
             margin-bottom: 40px;
         }
 
-        .table-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 32px;
-        }
-
-        .table-column {
-            display: flex;
-            flex-direction: column;
-        }
+        .table-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; }
+        .table-column { display: flex; flex-direction: column; }
 
         .table-header {
             font-size: 11px;
@@ -458,19 +382,9 @@
             border-top: 1px solid var(--border-gray);
         }
 
-        .table-metric {
-            font-size: 14px;
-            color: var(--goal-text);
-        }
+        .table-metric { font-size: 14px; color: var(--goal-text); }
+        .table-value { font-size: 14px; font-weight: 600; color: var(--goal-brand); text-align: right; }
 
-        .table-value {
-            font-size: 14px;
-            font-weight: 600;
-            color: var(--goal-brand);
-            text-align: right;
-        }
-
-        /* Summary Section - Minimal Style */
         .summary-section {
             background: var(--white);
             border: 1px solid var(--border-gray);
@@ -479,18 +393,8 @@
             margin-bottom: 40px;
         }
 
-        .summary-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-        }
-
-        .summary-title {
-            font-size: 16px;
-            font-weight: 700;
-            color: var(--goal-text);
-            margin-bottom: 8px;
-        }
+        .summary-header { display: flex; justify-content: space-between; align-items: flex-start; }
+        .summary-title { font-size: 16px; font-weight: 700; color: var(--goal-text); margin-bottom: 8px; }
 
         .summary-text {
             font-size: 14px;
@@ -500,32 +404,14 @@
             margin-right: 24px;
         }
 
-        .summary-metrics {
-            display: flex;
-            gap: 24px;
-            flex-shrink: 0;
-        }
+        .summary-metrics { display: flex; gap: 24px; flex-shrink: 0; }
+        .summary-metric { text-align: center; }
 
-        .summary-metric {
-            text-align: center;
-        }
-
-        .summary-metric-value {
-            font-size: 24px;
-            font-weight: 700;
-            margin-bottom: 4px;
-        }
-
+        .summary-metric-value { font-size: 24px; font-weight: 700; margin-bottom: 4px; }
         .summary-metric-value.roi { color: var(--goal-accent-1); }
         .summary-metric-value.revenue { color: var(--goal-brand); }
 
-        .summary-metric-label {
-            font-size: 11px;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }
-
+        .summary-metric-label { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; }
         .summary-metric-label.roi { color: var(--goal-accent-1); }
         .summary-metric-label.revenue { color: var(--goal-brand); }
 
@@ -538,11 +424,7 @@
             overflow-x: auto;
         }
 
-        .source-table {
-            width: 100%;
-            border-collapse: collapse;
-            font-size: 13px;
-        }
+        .source-table { width: 100%; border-collapse: collapse; font-size: 13px; }
 
         .source-table thead th {
             font-size: 11px;
@@ -556,18 +438,14 @@
             white-space: nowrap;
         }
 
-        .source-table thead th.numeric {
-            text-align: right;
-        }
+        .source-table thead th.numeric { text-align: right; }
 
         .source-table tbody tr {
             border-bottom: 1px solid var(--border-gray);
             transition: background-color 0.15s ease;
         }
 
-        .source-table tbody tr:hover {
-            background-color: var(--goal-light-grey);
-        }
+        .source-table tbody tr:hover { background-color: var(--goal-light-grey); }
 
         .source-table tbody td {
             padding: 12px;
@@ -575,10 +453,7 @@
             vertical-align: middle;
         }
 
-        .source-table tbody td.numeric {
-            text-align: right;
-            font-variant-numeric: tabular-nums;
-        }
+        .source-table tbody td.numeric { text-align: right; font-variant-numeric: tabular-nums; }
 
         .source-table tbody td.source-name {
             font-weight: 600;
@@ -611,31 +486,12 @@
             white-space: nowrap;
         }
 
-        .status-badge.performing {
-            background-color: #D1FAE5;
-            color: #065F46;
-        }
+        .status-badge.performing { background-color: #D1FAE5; color: #065F46; }
+        .status-badge.investigate { background-color: #FEF3C7; color: #92400E; }
+        .status-badge.action-needed { background-color: #FEE2E2; color: #991B1B; }
+        .status-badge.hold { background-color: #F3F4F6; color: #4B5563; }
 
-        .status-badge.investigate {
-            background-color: #FEF3C7;
-            color: #92400E;
-        }
-
-        .status-badge.action-needed {
-            background-color: #FEE2E2;
-            color: #991B1B;
-        }
-
-        .status-badge.hold {
-            background-color: #F3F4F6;
-            color: #4B5563;
-        }
-
-        .multiplier-value {
-            font-weight: 700;
-            font-variant-numeric: tabular-nums;
-        }
-
+        .multiplier-value { font-weight: 700; font-variant-numeric: tabular-nums; }
         .multiplier-value.high { color: var(--goal-brand); }
         .multiplier-value.low { color: var(--warning-red); }
         .multiplier-value.normal { color: var(--goal-text); }
@@ -703,25 +559,10 @@
             white-space: nowrap;
         }
 
-        .rec-action-badge.increase {
-            background-color: #DBEAFE;
-            color: #1E40AF;
-        }
-
-        .rec-action-badge.decrease {
-            background-color: #FEF3C7;
-            color: #92400E;
-        }
-
-        .rec-action-badge.investigate {
-            background-color: #FEE2E2;
-            color: #991B1B;
-        }
-
-        .rec-action-badge.hold {
-            background-color: #D1FAE5;
-            color: #065F46;
-        }
+        .rec-action-badge.increase { background-color: #DBEAFE; color: #1E40AF; }
+        .rec-action-badge.decrease { background-color: #FEF3C7; color: #92400E; }
+        .rec-action-badge.investigate { background-color: #FEE2E2; color: #991B1B; }
+        .rec-action-badge.hold { background-color: #D1FAE5; color: #065F46; }
 
         .rec-multiplier-row {
             display: flex;
@@ -737,20 +578,9 @@
             border-radius: 6px;
         }
 
-        .rec-multiplier-block.current {
-            background-color: var(--goal-light-grey);
-            border: 1px solid var(--border-gray);
-        }
-
-        .rec-multiplier-block.recommended {
-            background-color: #EFF6FF;
-            border: 1px solid #BFDBFE;
-        }
-
-        .rec-multiplier-block.recommended.decrease-bg {
-            background-color: #FFFBEB;
-            border: 1px solid #FDE68A;
-        }
+        .rec-multiplier-block.current { background-color: var(--goal-light-grey); border: 1px solid var(--border-gray); }
+        .rec-multiplier-block.recommended { background-color: #EFF6FF; border: 1px solid #BFDBFE; }
+        .rec-multiplier-block.recommended.decrease-bg { background-color: #FFFBEB; border: 1px solid #FDE68A; }
 
         .rec-multiplier-label {
             font-size: 10px;
@@ -761,20 +591,12 @@
             margin-bottom: 4px;
         }
 
-        .rec-multiplier-value {
-            font-size: 22px;
-            font-weight: 700;
-        }
-
+        .rec-multiplier-value { font-size: 22px; font-weight: 700; }
         .rec-multiplier-value.current { color: var(--neutral-gray); }
         .rec-multiplier-value.recommended { color: var(--goal-brand); }
         .rec-multiplier-value.recommended.decrease { color: var(--warning-orange); }
 
-        .rec-arrow {
-            font-size: 20px;
-            color: var(--light-gray);
-            flex-shrink: 0;
-        }
+        .rec-arrow { font-size: 20px; color: var(--light-gray); flex-shrink: 0; }
 
         .rec-detail-row {
             display: flex;
@@ -784,15 +606,8 @@
             font-size: 12px;
         }
 
-        .rec-detail-label {
-            color: var(--neutral-gray);
-        }
-
-        .rec-detail-value {
-            font-weight: 600;
-            color: var(--goal-text);
-        }
-
+        .rec-detail-label { color: var(--neutral-gray); }
+        .rec-detail-value { font-weight: 600; color: var(--goal-text); }
         .rec-detail-value.positive { color: var(--success-green); }
         .rec-detail-value.negative { color: var(--warning-red); }
 
@@ -814,11 +629,7 @@
             overflow-x: auto;
         }
 
-        .trend-table {
-            width: 100%;
-            border-collapse: collapse;
-            font-size: 13px;
-        }
+        .trend-table { width: 100%; border-collapse: collapse; font-size: 13px; }
 
         .trend-table thead th {
             font-size: 11px;
@@ -831,9 +642,7 @@
             border-bottom: 2px solid var(--border-gray);
         }
 
-        .trend-table thead th:first-child {
-            text-align: left;
-        }
+        .trend-table thead th:first-child { text-align: left; }
 
         .trend-table tbody td {
             padding: 10px 12px;
@@ -842,30 +651,15 @@
             border-bottom: 1px solid var(--border-gray);
         }
 
-        .trend-table tbody td:first-child {
-            text-align: left;
-            font-weight: 600;
-            color: var(--goal-text);
-        }
-
-        .trend-table tbody tr.baseline-row {
-            background-color: var(--goal-light-grey);
-            font-weight: 600;
-        }
-
-        .trend-table tbody tr.gap-row td {
-            font-weight: 600;
-        }
+        .trend-table tbody td:first-child { text-align: left; font-weight: 600; color: var(--goal-text); }
+        .trend-table tbody tr.baseline-row { background-color: var(--goal-light-grey); font-weight: 600; }
+        .trend-table tbody tr.gap-row td { font-weight: 600; }
 
         .gap-positive { color: var(--success-green); }
         .gap-negative { color: var(--warning-red); }
         .gap-neutral { color: var(--neutral-gray); }
 
-        .position-bar-container {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
+        .position-bar-container { display: flex; align-items: center; gap: 8px; }
 
         .position-bar-track {
             flex: 1;
@@ -875,11 +669,7 @@
             position: relative;
         }
 
-        .position-bar-fill {
-            height: 100%;
-            border-radius: 4px;
-            background: var(--goal-brand);
-        }
+        .position-bar-fill { height: 100%; border-radius: 4px; background: var(--goal-brand); }
 
         .position-bar-marker {
             position: absolute;
@@ -901,7 +691,6 @@
             min-width: 48px;
         }
 
-        /* Footer */
         .footer {
             text-align: center;
             padding: 32px 0 16px;
@@ -909,84 +698,27 @@
             font-size: 12px;
         }
 
-        .footer-logo {
-            font-size: 20px;
-            font-weight: 700;
-            color: var(--goal-brand);
-            margin-bottom: 8px;
-        }
+        .footer-logo { font-size: 20px; font-weight: 700; color: var(--goal-brand); margin-bottom: 8px; }
+        .footer-text { color: var(--light-gray); }
 
-        .footer-text {
-            color: var(--light-gray);
-        }
-
-        /* Responsive Design */
         @media (max-width: 768px) {
-            body {
-                padding: 20px;
-            }
-
-            .kpi-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .campaign-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .chart-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .table-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .funnel {
-                flex-direction: column;
-            }
-
-            .funnel-arrow {
-                transform: rotate(90deg);
-            }
-
-            .summary-header {
-                flex-direction: column;
-            }
-
-            .summary-text {
-                margin-right: 0;
-                margin-bottom: 16px;
-            }
-
-            .rec-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .source-table-container {
-                padding: 16px;
-            }
+            body { padding: 20px; }
+            .kpi-grid { grid-template-columns: 1fr; }
+            .campaign-grid { grid-template-columns: 1fr; }
+            .chart-grid { grid-template-columns: 1fr; }
+            .table-grid { grid-template-columns: 1fr; }
+            .funnel { flex-direction: column; }
+            .funnel-arrow { transform: rotate(90deg); }
+            .summary-header { flex-direction: column; }
+            .summary-text { margin-right: 0; margin-bottom: 16px; }
+            .rec-grid { grid-template-columns: 1fr; }
+            .source-table-container { padding: 16px; }
         }
 
-        /* Print Styles */
         @media print {
-            body {
-                padding: 20px;
-                font-size: 12px;
-            }
-
-            .source-table-container,
-            .rec-card,
-            .chart-card,
-            .funnel-container,
-            .metrics-table,
-            .summary-section {
-                break-inside: avoid;
-            }
-
-            .source-table tbody tr:hover {
-                background-color: transparent;
-            }
+            body { padding: 20px; font-size: 12px; }
+            .source-table-container, .rec-card, .chart-card, .funnel-container, .metrics-table, .summary-section { break-inside: avoid; }
+            .source-table tbody tr:hover { background-color: transparent; }
         }
     </style>
 </head>
@@ -1047,30 +779,22 @@
     <div class="bar-chart">
         <div class="bar-row">
             <div class="bar-label">1st Pos RPC</div>
-            <div class="bar-container">
-                <div class="bar blue" style="width: 100.0%"></div>
-            </div>
+            <div class="bar-container"><div class="bar blue" style="width: 100.0%"></div></div>
             <div class="bar-value blue">$4.66</div>
         </div>
         <div class="bar-row">
             <div class="bar-label">2nd Pos RPC</div>
-            <div class="bar-container">
-                <div class="bar blue-light" style="width: 67.8%"></div>
-            </div>
+            <div class="bar-container"><div class="bar blue-light" style="width: 67.8%"></div></div>
             <div class="bar-value blue-light">$3.16</div>
         </div>
         <div class="bar-row">
             <div class="bar-label">3rd Pos RPC</div>
-            <div class="bar-container">
-                <div class="bar green" style="width: 59.2%"></div>
-            </div>
+            <div class="bar-container"><div class="bar green" style="width: 59.2%"></div></div>
             <div class="bar-value green">$2.76</div>
         </div>
         <div class="bar-row">
             <div class="bar-label highlight">Your Eff. Bid</div>
-            <div class="bar-container">
-                <div class="bar orange" style="width: 42.3%"></div>
-            </div>
+            <div class="bar-container"><div class="bar orange" style="width: 42.3%"></div></div>
             <div class="bar-value orange">$1.97</div>
         </div>
     </div>
@@ -1085,30 +809,22 @@
     <div class="bar-chart">
         <div class="bar-row">
             <div class="bar-label">1st Pos RPC</div>
-            <div class="bar-container">
-                <div class="bar blue" style="width: 100.0%"></div>
-            </div>
+            <div class="bar-container"><div class="bar blue" style="width: 100.0%"></div></div>
             <div class="bar-value blue">$3.76</div>
         </div>
         <div class="bar-row">
             <div class="bar-label">2nd Pos RPC</div>
-            <div class="bar-container">
-                <div class="bar blue-light" style="width: 89.1%"></div>
-            </div>
+            <div class="bar-container"><div class="bar blue-light" style="width: 89.1%"></div></div>
             <div class="bar-value blue-light">$3.35</div>
         </div>
         <div class="bar-row">
             <div class="bar-label">3rd Pos RPC</div>
-            <div class="bar-container">
-                <div class="bar green" style="width: 72.1%"></div>
-            </div>
+            <div class="bar-container"><div class="bar green" style="width: 72.1%"></div></div>
             <div class="bar-value green">$2.71</div>
         </div>
         <div class="bar-row">
             <div class="bar-label highlight">Your Eff. Bid</div>
-            <div class="bar-container">
-                <div class="bar orange" style="width: 48.7%"></div>
-            </div>
+            <div class="bar-container"><div class="bar orange" style="width: 48.7%"></div></div>
             <div class="bar-value orange">$1.83</div>
         </div>
     </div>
@@ -1123,30 +839,22 @@
     <div class="bar-chart">
         <div class="bar-row">
             <div class="bar-label">1st Pos RPC</div>
-            <div class="bar-container">
-                <div class="bar blue" style="width: 100.0%"></div>
-            </div>
+            <div class="bar-container"><div class="bar blue" style="width: 100.0%"></div></div>
             <div class="bar-value blue">$9.68</div>
         </div>
         <div class="bar-row">
             <div class="bar-label">2nd Pos RPC</div>
-            <div class="bar-container">
-                <div class="bar blue-light" style="width: 47.1%"></div>
-            </div>
+            <div class="bar-container"><div class="bar blue-light" style="width: 47.1%"></div></div>
             <div class="bar-value blue-light">$4.56</div>
         </div>
         <div class="bar-row">
             <div class="bar-label">3rd Pos RPC</div>
-            <div class="bar-container">
-                <div class="bar green" style="width: 14.6%"></div>
-            </div>
+            <div class="bar-container"><div class="bar green" style="width: 14.6%"></div></div>
             <div class="bar-value green">$1.41</div>
         </div>
         <div class="bar-row">
             <div class="bar-label highlight">Your Eff. Bid</div>
-            <div class="bar-container">
-                <div class="bar orange" style="width: 25.7%"></div>
-            </div>
+            <div class="bar-container"><div class="bar orange" style="width: 25.7%"></div></div>
             <div class="bar-value orange">$2.49</div>
         </div>
     </div>
@@ -1161,30 +869,22 @@
     <div class="bar-chart">
         <div class="bar-row">
             <div class="bar-label">1st Pos RPC</div>
-            <div class="bar-container">
-                <div class="bar blue" style="width: 100.0%"></div>
-            </div>
+            <div class="bar-container"><div class="bar blue" style="width: 100.0%"></div></div>
             <div class="bar-value blue">$8.44</div>
         </div>
         <div class="bar-row">
             <div class="bar-label">2nd Pos RPC</div>
-            <div class="bar-container">
-                <div class="bar blue-light" style="width: 41.6%"></div>
-            </div>
+            <div class="bar-container"><div class="bar blue-light" style="width: 41.6%"></div></div>
             <div class="bar-value blue-light">$3.51</div>
         </div>
         <div class="bar-row">
             <div class="bar-label">3rd Pos RPC</div>
-            <div class="bar-container">
-                <div class="bar green" style="width: 36.3%"></div>
-            </div>
+            <div class="bar-container"><div class="bar green" style="width: 36.3%"></div></div>
             <div class="bar-value green">$3.06</div>
         </div>
         <div class="bar-row">
             <div class="bar-label highlight">Your Eff. Bid</div>
-            <div class="bar-container">
-                <div class="bar orange" style="width: 18.5%"></div>
-            </div>
+            <div class="bar-container"><div class="bar orange" style="width: 18.5%"></div></div>
             <div class="bar-value orange">$1.56</div>
         </div>
     </div>
@@ -1199,30 +899,22 @@
     <div class="bar-chart">
         <div class="bar-row">
             <div class="bar-label">1st Pos RPC</div>
-            <div class="bar-container">
-                <div class="bar blue" style="width: 100.0%"></div>
-            </div>
+            <div class="bar-container"><div class="bar blue" style="width: 100.0%"></div></div>
             <div class="bar-value blue">$23.48</div>
         </div>
         <div class="bar-row">
             <div class="bar-label">2nd Pos RPC</div>
-            <div class="bar-container">
-                <div class="bar blue-light" style="width: 30.9%"></div>
-            </div>
+            <div class="bar-container"><div class="bar blue-light" style="width: 30.9%"></div></div>
             <div class="bar-value blue-light">$7.25</div>
         </div>
         <div class="bar-row">
             <div class="bar-label">3rd Pos RPC</div>
-            <div class="bar-container">
-                <div class="bar green" style="width: 4.5%"></div>
-            </div>
+            <div class="bar-container"><div class="bar green" style="width: 4.5%"></div></div>
             <div class="bar-value green">$1.06</div>
         </div>
         <div class="bar-row">
             <div class="bar-label highlight">Your Eff. Bid</div>
-            <div class="bar-container">
-                <div class="bar orange" style="width: 19.0%"></div>
-            </div>
+            <div class="bar-container"><div class="bar orange" style="width: 19.0%"></div></div>
             <div class="bar-value orange">$4.47</div>
         </div>
     </div>
@@ -1237,30 +929,22 @@
     <div class="bar-chart">
         <div class="bar-row">
             <div class="bar-label">1st Pos RPC</div>
-            <div class="bar-container">
-                <div class="bar blue" style="width: 100.0%"></div>
-            </div>
+            <div class="bar-container"><div class="bar blue" style="width: 100.0%"></div></div>
             <div class="bar-value blue">$4.44</div>
         </div>
         <div class="bar-row">
             <div class="bar-label">2nd Pos RPC</div>
-            <div class="bar-container">
-                <div class="bar blue-light" style="width: 80.2%"></div>
-            </div>
+            <div class="bar-container"><div class="bar blue-light" style="width: 80.2%"></div></div>
             <div class="bar-value blue-light">$3.56</div>
         </div>
         <div class="bar-row">
             <div class="bar-label">3rd Pos RPC</div>
-            <div class="bar-container">
-                <div class="bar green" style="width: 75.7%"></div>
-            </div>
+            <div class="bar-container"><div class="bar green" style="width: 75.7%"></div></div>
             <div class="bar-value green">$3.36</div>
         </div>
         <div class="bar-row">
             <div class="bar-label highlight">Your Eff. Bid</div>
-            <div class="bar-container">
-                <div class="bar orange" style="width: 45.7%"></div>
-            </div>
+            <div class="bar-container"><div class="bar orange" style="width: 45.7%"></div></div>
             <div class="bar-value orange">$2.03</div>
         </div>
     </div>
@@ -1500,51 +1184,15 @@
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <td>Searches</td>
-                <td>1,870</td>
-                <td>3,598</td>
-            </tr>
-            <tr>
-                <td>Impressions</td>
-                <td>49</td>
-                <td>33</td>
-            </tr>
-            <tr>
-                <td>Win Rate</td>
-                <td>2.24%</td>
-                <td>0.63%</td>
-            </tr>
-            <tr>
-                <td>Clicks</td>
-                <td>42</td>
-                <td>23</td>
-            </tr>
-            <tr>
-                <td>Leads</td>
-                <td>38</td>
-                <td>20</td>
-            </tr>
-            <tr>
-                <td>Cost</td>
-                <td>$81.44</td>
-                <td>$60.50</td>
-            </tr>
-            <tr>
-                <td>Avg Position</td>
-                <td>#6.36</td>
-                <td>#9.05</td>
-            </tr>
-            <tr>
-                <td>Avg Bid</td>
-                <td>$1.77</td>
-                <td>$1.76</td>
-            </tr>
-            <tr class="gap-row">
-                <td>Change</td>
-                <td class="gap-neutral">—</td>
-                <td class="gap-neutral"></td>
-            </tr>
+            <tr><td>Searches</td><td>1,870</td><td>3,598</td></tr>
+            <tr><td>Impressions</td><td>49</td><td>33</td></tr>
+            <tr><td>Win Rate</td><td>2.24%</td><td>0.63%</td></tr>
+            <tr><td>Clicks</td><td>42</td><td>23</td></tr>
+            <tr><td>Leads</td><td>38</td><td>20</td></tr>
+            <tr><td>Cost</td><td>$81.44</td><td>$60.50</td></tr>
+            <tr><td>Avg Position</td><td>#6.36</td><td>#9.05</td></tr>
+            <tr><td>Avg Bid</td><td>$1.77</td><td>$1.76</td></tr>
+            <tr class="gap-row"><td>Change</td><td class="gap-neutral">—</td><td class="gap-neutral"></td></tr>
         </tbody>
     </table>
 </div>
@@ -1559,51 +1207,15 @@
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <td>Searches</td>
-                <td>8,578</td>
-                <td>5,468</td>
-            </tr>
-            <tr>
-                <td>Impressions</td>
-                <td>390</td>
-                <td>82</td>
-            </tr>
-            <tr>
-                <td>Win Rate</td>
-                <td>1.41%</td>
-                <td>1.18%</td>
-            </tr>
-            <tr>
-                <td>Clicks</td>
-                <td>121</td>
-                <td>65</td>
-            </tr>
-            <tr>
-                <td>Leads</td>
-                <td>87</td>
-                <td>58</td>
-            </tr>
-            <tr>
-                <td>Policies</td>
-                <td>2</td>
-                <td>0</td>
-            </tr>
-            <tr>
-                <td>Cost</td>
-                <td>$259.45</td>
-                <td>$141.94</td>
-            </tr>
-            <tr>
-                <td>Avg Position</td>
-                <td>#4.86</td>
-                <td>#8.13</td>
-            </tr>
-            <tr class="gap-row">
-                <td>Change</td>
-                <td class="gap-neutral">—</td>
-                <td class="gap-neutral"></td>
-            </tr>
+            <tr><td>Searches</td><td>8,578</td><td>5,468</td></tr>
+            <tr><td>Impressions</td><td>390</td><td>82</td></tr>
+            <tr><td>Win Rate</td><td>1.41%</td><td>1.18%</td></tr>
+            <tr><td>Clicks</td><td>121</td><td>65</td></tr>
+            <tr><td>Leads</td><td>87</td><td>58</td></tr>
+            <tr><td>Policies</td><td>2</td><td>0</td></tr>
+            <tr><td>Cost</td><td>$259.45</td><td>$141.94</td></tr>
+            <tr><td>Avg Position</td><td>#4.86</td><td>#8.13</td></tr>
+            <tr class="gap-row"><td>Change</td><td class="gap-neutral">—</td><td class="gap-neutral"></td></tr>
         </tbody>
     </table>
 </div>
@@ -1614,30 +1226,15 @@
         <div class="funnel-badge">Full Journey</div>
     </div>
     <div class="funnel">
-        <div class="funnel-stage">
-            <div class="funnel-value">5,468</div>
-            <div class="funnel-label">Searches</div>
-        </div>
+        <div class="funnel-stage"><div class="funnel-value">5,468</div><div class="funnel-label">Searches</div></div>
         <div class="funnel-arrow">→</div>
-        <div class="funnel-stage">
-            <div class="funnel-value">82</div>
-            <div class="funnel-label">Impressions</div>
-        </div>
+        <div class="funnel-stage"><div class="funnel-value">82</div><div class="funnel-label">Impressions</div></div>
         <div class="funnel-arrow">→</div>
-        <div class="funnel-stage">
-            <div class="funnel-value">65</div>
-            <div class="funnel-label">Clicks</div>
-        </div>
+        <div class="funnel-stage"><div class="funnel-value">65</div><div class="funnel-label">Clicks</div></div>
         <div class="funnel-arrow">→</div>
-        <div class="funnel-stage">
-            <div class="funnel-value">58</div>
-            <div class="funnel-label">Leads</div>
-        </div>
+        <div class="funnel-stage"><div class="funnel-value">58</div><div class="funnel-label">Leads</div></div>
         <div class="funnel-arrow">→</div>
-        <div class="funnel-stage">
-            <div class="funnel-value">0</div>
-            <div class="funnel-label">Policies</div>
-        </div>
+        <div class="funnel-stage"><div class="funnel-value">0</div><div class="funnel-label">Policies</div></div>
     </div>
 </div>
 <div class="summary-section">
@@ -1656,38 +1253,21 @@
         </div>
         <div class="campaign-metric-row">
             <div class="campaign-metric-label">What Happened</div>
-            <div class="campaign-metric-value-group">
-                <div class="campaign-metric-value" style="font-size: 13px; font-weight: 500; color: #6B7280;">
-                    The account went an entire day without generating leads despite being active
-                </div>
-            </div>
+            <div class="campaign-metric-value-group"><div class="campaign-metric-value" style="font-size: 13px; font-weight: 500; color: #6B7280;">The account went an entire day without generating leads despite being active</div></div>
         </div>
         <div class="campaign-metric-row">
             <div class="campaign-metric-label">Client Action</div>
-            <div class="campaign-metric-value-group">
-                <div class="campaign-metric-value" style="font-size: 13px; font-weight: 500; color: #6B7280;">
-                    Increased scheduling to 200% — still no leads until late afternoon
-                </div>
-            </div>
+            <div class="campaign-metric-value-group"><div class="campaign-metric-value" style="font-size: 13px; font-weight: 500; color: #6B7280;">Increased scheduling to 200% — still no leads until late afternoon</div></div>
         </div>
         <div class="campaign-metric-row">
             <div class="campaign-metric-label">Resolution</div>
-            <div class="campaign-metric-value-group">
-                <div class="campaign-metric-value" style="font-size: 13px; font-weight: 500; color: #6B7280;">
-                    Leads resumed the following day with no changes — likely transient
-                </div>
-            </div>
+            <div class="campaign-metric-value-group"><div class="campaign-metric-value" style="font-size: 13px; font-weight: 500; color: #6B7280;">Leads resumed the following day with no changes — likely transient</div></div>
         </div>
         <div class="campaign-metric-row">
             <div class="campaign-metric-label">Contributing Factor</div>
-            <div class="campaign-metric-value-group">
-                <div class="campaign-metric-value" style="font-size: 13px; font-weight: 500; color: #6B7280;">
-                    Day parting changed from 150% → 100% on Thursday — may have reduced peak-hour competitiveness
-                </div>
-            </div>
+            <div class="campaign-metric-value-group"><div class="campaign-metric-value" style="font-size: 13px; font-weight: 500; color: #6B7280;">Day parting changed from 150% → 100% on Thursday — may have reduced peak-hour competitiveness</div></div>
         </div>
     </div>
-
     <div class="campaign-card">
         <div class="campaign-header">
             <div class="campaign-name">Client Preferences & Approach</div>
@@ -1695,35 +1275,19 @@
         </div>
         <div class="campaign-metric-row">
             <div class="campaign-metric-label">Change Philosophy</div>
-            <div class="campaign-metric-value-group">
-                <div class="campaign-metric-value" style="font-size: 13px; font-weight: 500; color: #6B7280;">
-                    Prefers small, incremental changes — no broad overhauls to formulas
-                </div>
-            </div>
+            <div class="campaign-metric-value-group"><div class="campaign-metric-value" style="font-size: 13px; font-weight: 500; color: #6B7280;">Prefers small, incremental changes — no broad overhauls to formulas</div></div>
         </div>
         <div class="campaign-metric-row">
             <div class="campaign-metric-label">Approval Process</div>
-            <div class="campaign-metric-value-group">
-                <div class="campaign-metric-value" style="font-size: 13px; font-weight: 500; color: #6B7280;">
-                    No changes without explicit approval — wants data-driven rationale for any cost increases
-                </div>
-            </div>
+            <div class="campaign-metric-value-group"><div class="campaign-metric-value" style="font-size: 13px; font-weight: 500; color: #6B7280;">No changes without explicit approval — wants data-driven rationale for any cost increases</div></div>
         </div>
         <div class="campaign-metric-row">
             <div class="campaign-metric-label">Communication</div>
-            <div class="campaign-metric-value-group">
-                <div class="campaign-metric-value" style="font-size: 13px; font-weight: 500; color: #6B7280;">
-                    Prefers Google Chat over email for quicker response
-                </div>
-            </div>
+            <div class="campaign-metric-value-group"><div class="campaign-metric-value" style="font-size: 13px; font-weight: 500; color: #6B7280;">Prefers Google Chat over email for quicker response</div></div>
         </div>
         <div class="campaign-metric-row">
             <div class="campaign-metric-label">Account History</div>
-            <div class="campaign-metric-value-group">
-                <div class="campaign-metric-value" style="font-size: 13px; font-weight: 500; color: #6B7280;">
-                    1.5 years on GOAL — settings carefully contoured over time
-                </div>
-            </div>
+            <div class="campaign-metric-value-group"><div class="campaign-metric-value" style="font-size: 13px; font-weight: 500; color: #6B7280;">1.5 years on GOAL — settings carefully contoured over time</div></div>
         </div>
     </div>
 </div>
@@ -1735,30 +1299,17 @@
         </div>
         <div class="campaign-metric-row">
             <div class="campaign-metric-label">Close Rate</div>
-            <div class="campaign-metric-value-group">
-                <div class="campaign-metric-value" style="font-size: 13px; font-weight: 500; color: #10B981;">
-                    Very strong conversion once prospects click — the bottleneck is volume, not quality
-                </div>
-            </div>
+            <div class="campaign-metric-value-group"><div class="campaign-metric-value" style="font-size: 13px; font-weight: 500; color: #10B981;">Very strong conversion once prospects click — the bottleneck is volume, not quality</div></div>
         </div>
         <div class="campaign-metric-row">
             <div class="campaign-metric-label">Unreported Sales</div>
-            <div class="campaign-metric-value-group">
-                <div class="campaign-metric-value" style="font-size: 13px; font-weight: 500; color: #10B981;">
-                    Actual policy count is higher than platform data shows — not all sales entered yet
-                </div>
-            </div>
+            <div class="campaign-metric-value-group"><div class="campaign-metric-value" style="font-size: 13px; font-weight: 500; color: #10B981;">Actual policy count is higher than platform data shows — not all sales entered yet</div></div>
         </div>
         <div class="campaign-metric-row">
             <div class="campaign-metric-label">Prior Issue Resolved</div>
-            <div class="campaign-metric-value-group">
-                <div class="campaign-metric-value" style="font-size: 13px; font-weight: 500; color: #10B981;">
-                    Previously identified garbage source was removed — cleaner traffic profile now
-                </div>
-            </div>
+            <div class="campaign-metric-value-group"><div class="campaign-metric-value" style="font-size: 13px; font-weight: 500; color: #10B981;">Previously identified garbage source was removed — cleaner traffic profile now</div></div>
         </div>
     </div>
-
     <div class="campaign-card">
         <div class="campaign-header">
             <div class="campaign-name">Recent Changes & Context</div>
@@ -1766,27 +1317,15 @@
         </div>
         <div class="campaign-metric-row">
             <div class="campaign-metric-label">Bid Change (Feb 12)</div>
-            <div class="campaign-metric-value-group">
-                <div class="campaign-metric-value" style="font-size: 13px; font-weight: 500; color: #6B7280;">
-                    Chris adjusted bid from $1.88 → $2.66 — a step in the right direction
-                </div>
-            </div>
+            <div class="campaign-metric-value-group"><div class="campaign-metric-value" style="font-size: 13px; font-weight: 500; color: #6B7280;">Chris adjusted bid from $1.88 → $2.66 — a step in the right direction</div></div>
         </div>
         <div class="campaign-metric-row">
             <div class="campaign-metric-label">Day Parting</div>
-            <div class="campaign-metric-value-group">
-                <div class="campaign-metric-value" style="font-size: 13px; font-weight: 500; color: #F59E0B;">
-                    Changed from 150% → 100% on Thursday — investigate restoring peak-hour boost
-                </div>
-            </div>
+            <div class="campaign-metric-value-group"><div class="campaign-metric-value" style="font-size: 13px; font-weight: 500; color: #F59E0B;">Changed from 150% → 100% on Thursday — investigate restoring peak-hour boost</div></div>
         </div>
         <div class="campaign-metric-row">
             <div class="campaign-metric-label">Scheduling</div>
-            <div class="campaign-metric-value-group">
-                <div class="campaign-metric-value" style="font-size: 13px; font-weight: 500; color: #6B7280;">
-                    Client doubled lead spend to 200% during zero-lead day — confirmed willingness to invest
-                </div>
-            </div>
+            <div class="campaign-metric-value-group"><div class="campaign-metric-value" style="font-size: 13px; font-weight: 500; color: #6B7280;">Client doubled lead spend to 200% during zero-lead day — confirmed willingness to invest</div></div>
         </div>
     </div>
 </div>
@@ -1803,7 +1342,6 @@
         </div>
     </div>
 </div>
-
 
         <div class="footer">
             <div class="footer-logo">GOAL</div>
